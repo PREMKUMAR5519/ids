@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import '../styles/Movement.css';
 import  Lottie  from "lottie-react";
-import Anim1 from "../animation/Anim1.json"; // Adjust the path
+import Animate from "../animation/Animate.json"; 
 
 const Movement = () => {
   const containerRef = useRef(null);
@@ -42,7 +42,7 @@ const Movement = () => {
     <div className="movement-container" ref={containerRef}>
       <div className="center-box">
       <div style={{ width: 300, height: 300 }}>
-      <Lottie animationData={Anim1} loop={true} />
+      <Lottie animationData={Animate} loop={true} />
     </div>
       </div>
       <div className="service-card">SEO</div>
