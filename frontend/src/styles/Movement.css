@@ -1,0 +1,50 @@
+.movement-container {
+  position: relative;
+  width: 600px;
+  height: 400px;
+
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: transparent;
+  margin-right: 5vw;
+}
+
+.center-box {
+color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+
+}
+
+.service-card {
+  position: absolute;
+  padding: 7px 25px;
+  cursor: pointer;
+ 
+  background-color: #adadad2e;
+  color: rgba(255, 254, 254, 0.855);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  transition: transform 0.1s ease-out;
+  font-weight: 400;
+  border: 1px solid rgba(128, 128, 128, 0.421);
+
+}
+.service-card:hover{
+  scale: 105%;
+
+}
+/* Positioning the service cards around the central box */
+.service-card:nth-child(2) { top: 0; left: 40%; transform: translateX(-50%); }
+.service-card:nth-child(3) { top: 40%; right: 0; transform: translateY(-50%); }
+.service-card:nth-child(4) { bottom: 10%; left: 40%; transform: translateX(-50%); }
+.service-card:nth-child(5) { top: 40%; left: 0px; transform: translateY(-50%); }
