@@ -1,0 +1,69 @@
+.about-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+  }
+  
+  .about-us-container {
+    display: flex;
+    max-width: 1200px;
+    gap: 30px;
+    align-items: center;
+  }
+  
+  .about-us-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .about-us-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .about-us-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .about-us-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .about-us-content ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .about-us-content ul li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .services-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .services-button:hover {
+    background-color: #218838;
+  }
+  

@@ -13,12 +13,7 @@ const servicesData = [
     icon: '💻',
   },
   {
-    title: 'Ecommerce Development',
-    description: 'Professional eCommerce websites starting at ₹24,000. Trusted since 2014.',
-    icon: '🛒',
-  },
-  {
-    title: 'Ecommerce Development',
+    title: 'Digital Marketing',
     description: 'Professional eCommerce websites starting at ₹24,000. Trusted since 2014.',
     icon: '🛒',
   },
@@ -30,7 +25,6 @@ const ServiceCard = ({ service }) => {
       <div className="service-icon">{service.icon}</div>
       <h3 className="service-title">{service.title}</h3>
       <p className="service-description">{service.description}</p>
-      <a href="/gallery" className="view-gallery">View Gallery →</a>
     </div>
   );
 };
@@ -40,7 +34,7 @@ const Services = () => {
     <div className="services-container">
       <h2>Our <span className="highlight-text">Services</span></h2>
       <h3>We provide the best service for you</h3>
-      <p>From cost-effective digital marketing strategies to convenient shopping experiences with a E-commerce website.</p>
+      <p>At Innoverse Digital Services, we pride ourselves on offering a comprehensive range of services that cater to businesses of all sizes.</p>
       <div className="services-grid">
         {servicesData.map((service, index) => (
           <ServiceCard key={index} service={service} />
